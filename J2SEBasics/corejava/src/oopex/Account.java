@@ -1,6 +1,6 @@
 package oopex;
 
-public class Account extends Bank {
+public abstract class Account extends Bank {
 	private int acc_Id;
 	private String acc_Name;
 	private double acc_Bal;
